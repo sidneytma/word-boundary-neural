@@ -8,6 +8,8 @@
 
 *In this plot, the CNN-predicted boundaries are depicted in red.*
 
+---
+
 The goal of this project is to automatically find good time intervals to trim audios of spoken words. This is a surprisingly difficult task to solve using simple signal processing techniques, as audio data can be noisy, and language audio includes many subtle signals that are easy to miss. Theoretically, with the right amount of speech data and boundary labeling, this could be a relatively simple supervised ML problem that could be solved with audio processing and neural methods.
 
 ## Data
@@ -15,7 +17,7 @@ The goal of this project is to automatically find good time intervals to trim au
 Augmented by creating modified copies (time shifting, time stretching, adding noise, etc.)
 - Increased dataset size by a factor of 50 (10,000 samples total)
   
-##Preprocessing
+## Preprocessing
 - Converts each audio signal (2 seconds of 16,000 Hz = 32,000 samples) into Log-Mel spectrogram (64 Mel bands x 200 windows)
   
 ## Neural network
