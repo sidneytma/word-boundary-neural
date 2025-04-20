@@ -1,9 +1,12 @@
 # Automatically locating word boundaries (for trimming in experimental studies)
 
-<img src="true_boundaries.png" width="1000"/>
-<img src="predicted_boundaries.png" width="1000"/>
+<img src="true_boundaries.png" width="800"/>
 
-*Spectrograms for various spoken words. In green, the word boundaries are shown. This would be used to trim the audio clips for experiment audios. On the right, the CNN-predicted boundaries are depicted in red.*
+*Spectrograms for various spoken words. In green, the word boundaries are shown. This would be used to trim the audio clips for experiment audios.*
+
+<img src="predicted_boundaries.png" width="800"/>
+
+*In this plot, the CNN-predicted boundaries are depicted in red.*
 
 The goal of this project is to automatically find good time intervals to trim audios of spoken words. This is a surprisingly difficult task to solve using simple signal processing techniques, as audio data can be noisy, and language audio includes many subtle signals that are easy to miss. Theoretically, with the right amount of speech data and boundary labeling, this could be a relatively simple supervised ML problem that could be solved with audio processing and neural methods.
 
