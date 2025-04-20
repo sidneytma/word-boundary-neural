@@ -1,7 +1,7 @@
 # Automatically locating word boundaries (for trimming in experimental studies)
 
-<img src="true_boundaries.png" width="500"/>
-<img src="predicted_boundaries.png" width="500"/>
+<img src="true_boundaries.png" width="1000"/>
+<img src="predicted_boundaries.png" width="1000"/>
 
 *Spectrograms for various spoken words. In green, the word boundaries are shown. This would be used to trim the audio clips for experiment audios. On the right, the CNN-predicted boundaries are depicted in red.*
 
